@@ -1,1 +1,77 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #140e17 !important;
+}
+
+::-webkit-scrollbar {
+    width: 0.5em !important;
+    height: 0.5em !important;
+}
+
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2c1f1f;
+    border-radius: 20px;
+}
+
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #181111;
+}
+
+
+
+footer{
+    margin-top: auto !important;
+    width: 100%;
+ }
+ 
+ .icon-size{
+    font-size: 2.2rem;
+}
+
+.icon-size-6r{
+    font-size: 4rem;
+}
+.icon-warning{
+    color: yellow;
+}
+
+.icon-danger{
+    color: red;
+}
+
+.card{
+    border: none;
+    animation-duration: 1s;
+    animation-name: my-animations;
+}
+
+@keyframes my-animations {
+    0%{
+        transform: translateY(20%);
+        opacity: 0;
+    }
+    45% {
+        opacity: 45;
+    }
+    75% {
+        opacity: 75;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 100;
+    }
+}
